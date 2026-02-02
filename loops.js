@@ -91,26 +91,100 @@
 // change}
 // while(end);
 
-let j = 12; // start
+// let j = 12; // start
 
-do {
-    console.log("do while loop:", j);  // code
-    j++;  // change (condition)
-} while (j < 20);  // while check after executing code block (end)
+// do {
+//     console.log("do while loop:", j);  // code
+//     j++;  // change (condition)
+// } while (j < 20);  // while check after executing code block (end)
 
 
 // break
-for (let k = 1; k <= 201; k++) {
-    console.log("Loop with break", k);
-    if (k == 30) {
-        break;
-    }
-}
+// for (let k = 1; k <= 201; k++) {
+//     console.log("Loop with break", k);
+//     if (k == 30) {
+//         break;
+//     }
+// }
 
 // continue
-for (a = 1; a <= 10; a++) {
-    if (a == 5) {
-        continue;
-    }
-    console.log(a);
-}
+// for (a = 1; a <= 10; a++) {
+//     if (a == 5) {
+//         continue;
+//     }
+//     console.log(a);
+// }
+
+// example
+//1.
+//  for (let i = 1; i <= 10; i++) {
+//         console.log(i);
+//     }
+//2.
+    // let i = 10;   // start from 10
+
+    // while (i >= 1) {
+    //     console.log(i);
+    //     i--;   // decrease by 1 each time
+    // }
+//3.
+//   for (let i = 1; i <= 20; i++) {
+//         if (i % 2 === 0) {
+//             console.log(i);
+//         }
+//     }
+//4.
+//  let i = 1;
+
+//     while (i <= 15) {
+//         if (i % 2 !== 0) {   // or (i % 2 === 1)
+//             console.log(i);
+//         }
+//         i++;
+//     }
+//5.
+//  for (let i = 1; i <= 10; i++) {
+//         console.log(`5 x ${i} = ${5 * i}`);
+//     }
+//6.
+// let sum = 0;
+
+//     for (let i = 1; i <= 100; i++) {
+//         sum = sum + i;   // add each number to sum
+//     }
+
+//     console.log("Total Sum:", sum);
+//7.
+//  for (let i = 1; i <= 50; i++) {
+//         if (i % 3 === 0) {
+//             console.log(i);
+//         }
+//     }
+//8.
+//  let num = prompt("Give a number:");
+
+//     for (let i = 1; i <= num; i++) {
+//         if (i % 2 === 0) {
+//             console.log(i + " is even");
+//         } else {
+//             console.log(i + " is odd");
+//         }
+//     }
+//9.
+// let count = 0;
+
+//     for (let i = 1; i <= 100; i++) {
+//         if (i % 3 === 0 || i % 5 === 0) {
+//             count++;
+//         }
+//     }
+
+//     console.log("Total numbers divisible by 3 or 5:", count);
+//10.
+// for (let i = 1; i <= 100; i++) {
+//         console.log(i);
+
+//         if (i % 7 === 0) {
+//             break;   // stop the loop completely
+//         }
+//     }
