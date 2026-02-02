@@ -101,3 +101,16 @@ number
 // ex. if(-1){}, js convert it into true
 // all --> true
 
+
+// example 1
+let x = 2;
+
+switch (x) {
+    case 2:
+        console.log("Two");
+        break;
+    case 3:
+        console.log("Three");
+        break;
+}
+console.log(x);
